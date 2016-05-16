@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Test APP</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="Division">
+        <item>Dhaka</item>
+        <item>Rajshahi</item>
+        <item>Rangpur</item>
+        <item>Borishal</item>
+    </string-array>
 </resources>

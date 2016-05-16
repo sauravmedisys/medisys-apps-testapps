@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import my.com.medisys.apps.test.activity.ButtonTest;
+import my.com.medisys.apps.test.fragment.FragmentTest;
 
 public class MainActivity extends Activity {
 
@@ -24,6 +25,8 @@ public class MainActivity extends Activity {
     }
 
     public void fragmentTest(View v){
-        Toast.makeText(getApplicationContext(), "Hello", Toast.LENGTH_LONG).show();
+//        Toast.makeText(getApplicationContext(), "Hello", Toast.LENGTH_LONG).show();
+        Intent intent = new Intent(this, FragmentTest.class);
+        startActivity(intent);
     }
 }

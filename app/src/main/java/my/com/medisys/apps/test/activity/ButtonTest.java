@@ -1,6 +1,5 @@
 package my.com.medisys.apps.test.activity;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -24,11 +23,9 @@ public class ButtonTest extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(ButtonTest.this, MainActivity.class);
                 startActivity(intent);
-//                finish();
+                finish();
+//                onDestroy();
             }
         });
-}
-
-
-
+    }
 }
