@@ -26,8 +26,9 @@ public class WebViewTest extends AppCompatActivity {
         // unresponsive site fit within screen
         view.getSettings().setLoadWithOverviewMode(true);
         view.getSettings().setUseWideViewPort(true);
-        // set forward webpage on same activity
+//         set forward webpage on same activity
         view.setWebViewClient(new WebViewClient());
+
     }
 
     @Override
