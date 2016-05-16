@@ -50,4 +50,11 @@
         android:layout_alignEnd="@+id/text1"
         android:onClick="webViewTest"/>
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gallary"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
 </RelativeLayout>
