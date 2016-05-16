@@ -2,13 +2,12 @@ package my.com.medisys.apps.test;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Toast;
 
 import my.com.medisys.apps.test.activity.ButtonTest;
 import my.com.medisys.apps.test.fragment.FragmentTest;
+import my.com.medisys.apps.test.webview.WebViewTest;
 
 public class MainActivity extends Activity {
 
@@ -27,6 +26,11 @@ public class MainActivity extends Activity {
     public void fragmentTest(View v){
 //        Toast.makeText(getApplicationContext(), "Hello", Toast.LENGTH_LONG).show();
         Intent intent = new Intent(this, FragmentTest.class);
+        startActivity(intent);
+    }
+    public void webViewTest(View v){
+//        Toast.makeText(getApplicationContext(), "Hello", Toast.LENGTH_LONG).show();
+        Intent intent = new Intent(this, WebViewTest.class);
         startActivity(intent);
     }
 }
