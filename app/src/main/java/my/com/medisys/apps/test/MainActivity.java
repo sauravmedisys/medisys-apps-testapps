@@ -28,18 +28,15 @@ public class MainActivity extends Activity implements View.OnClickListener {
     }
 
     public void activity(View v){
-
         Intent intent = new Intent(this, ButtonTest.class);
         startActivity(intent);
     }
 
     public void fragmentTest(View v){
-//        Toast.makeText(getApplicationContext(), "Hello", Toast.LENGTH_LONG).show();
         Intent intent = new Intent(this, FragmentTest.class);
         startActivity(intent);
     }
     public void webViewTest(View v){
-//        Toast.makeText(getApplicationContext(), "Hello", Toast.LENGTH_LONG).show();
         Intent intent = new Intent(this, WebViewTest.class);
         startActivity(intent);
     }
